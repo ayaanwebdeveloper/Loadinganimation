@@ -1,0 +1,31 @@
+
+
+.box{
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    height: 100px;
+    border-left: 20px solid teal;
+    border-right: 20px solid teal;
+    border-top: rgba(128, 128, 128, 0.315) 20px solid;
+    border-bottom: rgba(128, 128, 128, 0.24) 20px solid;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px ;
+    animation-name: load;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+}
+.t{
+    position: absolute;
+    top: 350px;
+    left: 530px;
+    font-size: 36px;
+    color: gray;
+}
+@keyframes load {
+    to{
+        rotate: 360deg;
+    }
+    
+}
